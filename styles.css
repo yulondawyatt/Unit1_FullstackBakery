@@ -1,0 +1,36 @@
+
+* {
+  margin: 0;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: green;
+  font-size: 6em;
+  white-space: nowrap;
+}
+
+nav {
+  font-size: .4em;
+  margin: 1em;
+}
+
+nav a {
+  padding: .5em;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+.brand {
+  margin-left: .2em;
+}
+
+main article {
+  display: flex;
+  flex-direction: column;
+  background-color: purple;
+}
